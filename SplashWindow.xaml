@@ -1,0 +1,11 @@
+﻿<Window x:Class="FileManager.SplashWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:cons="clr-namespace:FileManager.Util"
+        Height="350" Width="525" MinHeight="350" MaxHeight="350" MinWidth="525" MaxWidth="525" AllowsTransparency="True" WindowStyle="None" Background="#FF2E2E2E" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" Closing="Window_Closing">
+    <Grid>
+        <Label Content="FILE MANAGER" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="20" />
+
+
+    </Grid>
+</Window>
